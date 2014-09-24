@@ -7,6 +7,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class GrossProfit extends Activity {
 	
@@ -34,12 +35,36 @@ public class GrossProfit extends Activity {
 				// TODO Auto-generated method stub
 				
 
-				revenue = Double.parseDouble(editrev.getText().toString());
-				cogs = Double.parseDouble(editcogs.getText().toString());
-				
-				answer = revenue - cogs;
-				
-				txtans.setText(answer + "");
+				if (editrev.getText().toString().equals("")) {
+
+					Toast.makeText(getApplicationContext(),
+							"Please Fill up all!", Toast.LENGTH_LONG).show();
+
+					if (editcogs.getText().equals(0)) {
+
+						Toast.makeText(getApplicationContext(),
+								"Please Fill up all!", Toast.LENGTH_LONG)
+								.show();
+
+					}
+
+				} else if (editcogs.getText().toString().equals("")) {
+
+					Toast.makeText(getApplicationContext(),
+							"Please Fill up all!", Toast.LENGTH_LONG).show();
+
+				} else {
+
+					revenue = Double.parseDouble(editrev.getText()
+							.toString());
+					cogs = Double
+							.parseDouble(editcogs.getText().toString());
+
+					answer = revenue + cogs;
+
+					txtans.setText(answer + "");
+
+				}
 				
 			}});
 	}

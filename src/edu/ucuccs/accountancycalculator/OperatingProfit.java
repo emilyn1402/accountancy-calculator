@@ -7,6 +7,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class OperatingProfit extends Activity {
 	
@@ -34,12 +35,36 @@ public class OperatingProfit extends Activity {
 				// TODO Auto-generated method stub
 				
 
-				gp = Double.parseDouble(editgp.getText().toString());
-				oe = Double.parseDouble(editoe.getText().toString());
-				
-				answer = gp - oe;
-				
-				txtans.setText(answer + "");
+				if (editgp.getText().toString().equals("")) {
+
+					Toast.makeText(getApplicationContext(),
+							"Please Fill up all!", Toast.LENGTH_LONG).show();
+
+					if (editoe.getText().toString().equals(0)) {
+
+						Toast.makeText(getApplicationContext(),
+								"Please Fill up all!", Toast.LENGTH_LONG)
+								.show();
+
+					}
+
+				} else if (editoe.getText().toString().equals("")) {
+
+					Toast.makeText(getApplicationContext(),
+							"Please Fill up all!", Toast.LENGTH_LONG).show();
+
+				} else {
+
+					gp = Double.parseDouble(editgp.getText()
+							.toString());
+					oe = Double
+							.parseDouble(editoe.getText().toString());
+
+					answer = gp + oe;
+
+					txtans.setText(answer + "");
+
+				}
 				
 			}});
 	}

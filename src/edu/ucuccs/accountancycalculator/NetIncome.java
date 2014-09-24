@@ -7,6 +7,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class NetIncome extends Activity {
 	
@@ -37,15 +38,89 @@ public class NetIncome extends Activity {
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
 				
+				if (editgross.getText().toString().equals("")) {
 
-				gp = Double.parseDouble(editgross.getText().toString());
-				oe = Double.parseDouble(editoe.getText().toString());
-				tax = Double.parseDouble(edittax.getText().toString());
-				interest = Double.parseDouble(editinterest.getText().toString());
+					Toast.makeText(getApplicationContext(),
+							"Please Fill up all!", Toast.LENGTH_LONG).show();
+
+					if (editoe.getText().toString().equals(0)) {
+
+						Toast.makeText(getApplicationContext(),
+								"Please Fill up all!", Toast.LENGTH_LONG)
+								.show();
+						
+						if (edittax.getText().toString().equals(0)) {
+
+							Toast.makeText(getApplicationContext(),
+									"Please Fill up all!", Toast.LENGTH_LONG)
+									.show();
+							
+							if (editinterest.getText().toString().equals(0)) {
+
+								Toast.makeText(getApplicationContext(),
+										"Please Fill up all!", Toast.LENGTH_LONG)
+										.show();
+
+							}
+
+						}
+
+					}
+
+				} else if (editoe.getText().toString().equals("")) {
+
+					Toast.makeText(getApplicationContext(),
+							"Please Fill up all!", Toast.LENGTH_LONG).show();
+					
+					if (edittax.getText().toString().equals(0)) {
+
+						Toast.makeText(getApplicationContext(),
+								"Please Fill up all!", Toast.LENGTH_LONG)
+								.show();
+						
+						if (editinterest.getText().toString().equals(0)) {
+
+							Toast.makeText(getApplicationContext(),
+									"Please Fill up all!", Toast.LENGTH_LONG)
+									.show();
+
+						}
+
+					}
 				
-				answer = gp - oe - tax - interest;
-				
-				txtans.setText(answer + "");
+
+				} else if (edittax.getText().toString().equals(0)) {
+
+					Toast.makeText(getApplicationContext(),
+							"Please Fill up all!", Toast.LENGTH_LONG)
+							.show();
+					
+					if (editinterest.getText().toString().equals(0)) {
+
+						Toast.makeText(getApplicationContext(),
+								"Please Fill up all!", Toast.LENGTH_LONG)
+								.show();
+
+					}
+
+				} else if (editinterest.getText().toString().equals(0)) {
+
+					Toast.makeText(getApplicationContext(),
+							"Please Fill up all!", Toast.LENGTH_LONG)
+							.show();
+
+				} else {
+
+					gp = Double.parseDouble(editgross.getText().toString());
+					oe = Double.parseDouble(editoe.getText().toString());
+					tax = Double.parseDouble(edittax.getText().toString());
+					interest = Double.parseDouble(editinterest.getText().toString());
+					
+					answer = gp - oe - tax - interest;
+					
+					txtans.setText(answer + "");
+
+				}
 				
 			}});
 	}

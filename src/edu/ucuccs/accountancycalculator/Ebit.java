@@ -39,7 +39,7 @@ public class Ebit extends Activity {
 					Toast.makeText(getApplicationContext(),
 							"Please Fill up all!", Toast.LENGTH_LONG).show();
 
-					if (editoe.getText().equals(0)) {
+					if (editoe.getText().toString().equals(0)) {
 
 						Toast.makeText(getApplicationContext(),
 								"Please Fill up all!", Toast.LENGTH_LONG)

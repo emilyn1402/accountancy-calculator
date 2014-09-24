@@ -39,7 +39,7 @@ public class Equity extends Activity {
 					Toast.makeText(getApplicationContext(),
 							"Please Fill up all!", Toast.LENGTH_LONG).show();
 
-					if (editlia.getText().equals(0)) {
+					if (editlia.getText().toString().equals(0)) {
 
 						Toast.makeText(getApplicationContext(),
 								"Please Fill up all!", Toast.LENGTH_LONG)
