@@ -8,6 +8,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class DeptEquityRatio extends Activity {
 	
@@ -34,14 +35,37 @@ public class DeptEquityRatio extends Activity {
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
 				
-				totallia = Double.parseDouble(edittotallia.getText()
-						.toString());
-				shareequity = Double
-						.parseDouble(editshareequity.getText().toString());
+				if (edittotallia.getText().toString().equals("")) {
 
-				answer = totallia / shareequity;
+					Toast.makeText(getApplicationContext(),
+							"Please Fill up all!", Toast.LENGTH_LONG).show();
 
-				txtans.setText(answer + "");
+					if (editshareequity.getText().toString().equals(0)) {
+
+						Toast.makeText(getApplicationContext(),
+								"Please Fill up all!", Toast.LENGTH_LONG)
+								.show();
+
+					}
+
+				} else if (editshareequity.getText().toString().equals("")) {
+
+					Toast.makeText(getApplicationContext(),
+							"Please Fill up all!", Toast.LENGTH_LONG).show();
+
+				} else {
+
+					totallia = Double.parseDouble(edittotallia.getText()
+							.toString());
+					shareequity = Double
+							.parseDouble(editshareequity.getText().toString());
+
+					answer = totallia + shareequity;
+
+					txtans.setText(answer + "");
+
+				}
+
 				
 			}});
 	}

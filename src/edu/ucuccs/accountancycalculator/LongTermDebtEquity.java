@@ -1,13 +1,13 @@
 package edu.ucuccs.accountancycalculator;
 
-import android.os.Bundle;
 import android.app.Activity;
-import android.view.Menu;
+import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class LongTermDebtEquity extends Activity {
 	
@@ -34,23 +34,39 @@ public class LongTermDebtEquity extends Activity {
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
 				
-				ltlia = Double.parseDouble(editltlia.getText()
-						.toString());
-				equity = Double
-						.parseDouble(editequity.getText().toString());
+				if (editltlia.getText().toString().equals("")) {
 
-				answer = ltlia / equity;
+					Toast.makeText(getApplicationContext(),
+							"Please Fill up all!", Toast.LENGTH_LONG).show();
 
-				txtans.setText(answer + "");
+					if (editequity.getText().toString().equals(0)) {
+
+						Toast.makeText(getApplicationContext(),
+								"Please Fill up all!", Toast.LENGTH_LONG)
+								.show();
+
+					}
+
+				} else if (editequity.getText().toString().equals("")) {
+
+					Toast.makeText(getApplicationContext(),
+							"Please Fill up all!", Toast.LENGTH_LONG).show();
+
+				} else {
+
+					ltlia = Double.parseDouble(editltlia.getText()
+							.toString());
+					equity = Double
+							.parseDouble(editequity.getText().toString());
+
+					answer = ltlia + equity;
+
+					txtans.setText(answer + "");
+
+				}
+
 				
 			}});
-	}
-
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.long_term_debt_equity, menu);
-		return true;
 	}
 
 }

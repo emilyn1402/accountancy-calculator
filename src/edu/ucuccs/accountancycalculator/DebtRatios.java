@@ -1,13 +1,13 @@
 package edu.ucuccs.accountancycalculator;
 
-import android.os.Bundle;
 import android.app.Activity;
-import android.view.Menu;
+import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class DebtRatios extends Activity {
 	
@@ -34,23 +34,39 @@ public class DebtRatios extends Activity {
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
 				
-				totallia = Double.parseDouble(edittotallia.getText()
-						.toString());
-				totalass = Double
-						.parseDouble(edittotalass.getText().toString());
+				if (edittotallia.getText().toString().equals("")) {
 
-				answer = totallia / totalass;
+					Toast.makeText(getApplicationContext(),
+							"Please Fill up all!", Toast.LENGTH_LONG).show();
 
-				txtans.setText(answer + "");
+					if (edittotalass.getText().toString().equals(0)) {
+
+						Toast.makeText(getApplicationContext(),
+								"Please Fill up all!", Toast.LENGTH_LONG)
+								.show();
+
+					}
+
+				} else if (edittotalass.getText().toString().equals("")) {
+
+					Toast.makeText(getApplicationContext(),
+							"Please Fill up all!", Toast.LENGTH_LONG).show();
+
+				} else {
+
+					totallia = Double.parseDouble(edittotallia.getText()
+							.toString());
+					totalass = Double
+							.parseDouble(edittotalass.getText().toString());
+
+					answer = totallia + totalass;
+
+					txtans.setText(answer + "");
+
+				}
+
 				
 			}});
-	}
-
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.debt_ratios, menu);
-		return true;
 	}
 
 }
