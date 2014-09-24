@@ -141,10 +141,11 @@ public final class R {
         public static final int activity_gross_profit=0x7f030009;
         public static final int activity_liabilities=0x7f03000a;
         public static final int activity_long_term_debt_equity=0x7f03000b;
-        public static final int activity_market_ratio=0x7f03000c;
-        public static final int activity_net_income=0x7f03000d;
-        public static final int activity_operating_profit=0x7f03000e;
-        public static final int activity_sales_revenue=0x7f03000f;
+        public static final int activity_main=0x7f03000c;
+        public static final int activity_market_ratio=0x7f03000d;
+        public static final int activity_net_income=0x7f03000e;
+        public static final int activity_operating_profit=0x7f03000f;
+        public static final int activity_sales_revenue=0x7f030010;
     }
     public static final class menu {
         public static final int assets=0x7f080000;
