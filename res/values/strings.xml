@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Accountancy Calculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="logo">Accountancy Calculator!</string>
+
+    <color name="skyblue">#4CA4B4</color>
+    <color name="black">#000000</color>
+
+    <string name="cat">Categories</string>
+    <string name="ex">Exit</string>
+    <string name="cate">Choose Your Category</string>
+    <string name="basic">Basic Equations</string>
+    <string name="debt">Debt Ratio</string>
+    <string name="mar">Market Ratio</string>
+    <string name="back">Back</string>
+    <string name="ass">Assets</string>
+    <string name="ebit">Earning Before Interest and Taxes</string>
+    <string name="equ">Equity</string>
+    <string name="gross">Gross Profit</string>
+    <string name="lia">Liabilities</string>
+    <string name="net">Net Income</string>
+    <string name="op">Operating Profit</string>
+    <string name="sr">Sales Revenue</string>
+    <string name="liab">Liabilities:</string>
+    <string name="equi">Equity:</string>
+    <string name="asset">Assets:</string>
+    <string name="cal">Calculate</string>
+    <string name="der">Debt to Equity Ratio</string>
+    <string name="dscr">Debt Service Coverage Ratio</string>
+    <string name="lder">Long-Term Debt to Equity Ratio</string>
+    <string name="dividendC">Dividend Cover</string>
+    <string name="dividendY">Dividend Yield</string>
+    <string name="dividendS">Dividend per Share</string>
+    <string name="eps">Earning per Share</string>
+    <string name="payoutratio">Payout Ratio</string>
+    <string name="peg">PEG Ratio</string>
+    <string name="price">Price / Sales Ratio</string>
+    <string name="title_activity_category">Category</string>
+    <string name="title_activity_basic_equation">BasicEquation</string>
+    <string name="title_activity_debt_ratio">DebtRatio</string>
+    <string name="title_activity_market_ratio">MarketRatio</string>
+    <string name="title_activity_assets">Assets</string>
+    <string name="assets">- Anything of value owned by a Company. \n Assets = Liabilities + Equity</string>
+    <string name="title_activity_ebit">Ebit</string>
+    <string name="rev">Revenue:</string>
+    <string name="oe">Operating Expenses:</string>
+    <string name="ebitax">- Measures Profit. \nEBIT = Revenue - Operating Expenses</string>
+    <string name="eb">EBIT:</string>
+    <string name="title_activity_equation">Equation</string>
+    <string name="title_activity_equity">Equity</string>
+    <string name="equity">-Measures a company assets, after liablilities are paid. \nEquity = Assets - Liabilities</string>
+    <string name="title_activity_gross_profit">GrossProfit</string>
+    <string name="grossdecs">-Measures profit after cost of goods sold are paid. \nGross Profit = Revenue - Cost of Goods Sold</string>
+    <string name="cogs">Cost of Goods Sold:</string>
+    <string name="title_activity_liabilities">Liabilities</string>
+    <string name="gp">Gross Profit:</string>
+    <string name="liadecs">-A financial obligation.\n-Money to paid.\nLiabilities = Assets - Equity</string>
+    <string name="title_activity_net_income">NetIncome</string>
+    <string name="netdecs">-Measures of profit after all associated costs are paid.\nNet Income = Gross Profit - Operating Expenses - Taxes - Interest</string>
+    <string name="tax">Taxes:</string>
+    <string name="interest">Interest:</string>
+    <string name="neti">Net Income:</string>
+    <string name="title_activity_operating_profit">OperatingProfit</string>
+    <string name="opdecs">-Profit earned from a companys main activities.\nOperating Profit = Gross Profit - Operating Expenses</string>
+    <string name="oprofit">Operating Profit:</string>
+    <string name="title_activity_sales_revenue">SalesRevenue</string>
+    <string name="srdecs">-Measures sales, before costs and taxes are accounted for.\nSales Revenue = Gross Sales - Sales of Returns and Allowances</string>
+    <string name="gs">Gross Sales:</string>
+    <string name="sra">Sales of Return and Allowances:</string>
+    <string name="srevenue">Sales Revenue:</string>
+    <string name="liquid">Liquidity</string>
+    <string name="depre">Depreciation</string>
+    <string name="title_activity_dept_equity_ratio">DeptEquityRatio</string>
+    <string name="totallia">Total Liabilities:</string>
+    <string name="shareequity">Shareholders Equity:</string>
+    <string name="dter">Debt To Equity Ratio:</string>
+    <string name="derdecs">-How much equity vs debt is being used to pay for assets. \nDebt to Equity Ratio = Total Liabilities / Shareholders Equity</string>
+    <string name="title_activity_debt_ratios">DebtRatios</string>
+    <string name="totalass">Total Asset:</string>
+    <string name="debtdecs">-Debt compared to assets. \nDebt Ratio = Total Liabilities / Total Assets</string>
+    <string name="debtratio">Debt Ratio:</string>
+    <string name="title_activity_debt_service_courage">DebtServiceCourage</string>
+    <string name="netoincome">Net Operating Income:</string>
+    <string name="debtservice">Total Debt Service:</string>
+    <string name="dscrdecs">-Cash available to pay off debt. \nDebt Service Courage Ratio = Net Operating Income / Total Debt Service</string>
+    <string name="dsc">Debt Service Courage Ratio:</string>
+    <string name="title_activity_long_term_debt_equity">LongTermDebtEquity</string>
+    <string name="ltlia">Long-Term Liabilities</string>
+    <string name="ltdebtdecs">-Equity vs long-term debt. \nLong-Term Debt to Equity Ratio = Long-Term Liabilities / Equity</string>
+    <string name="ltdebtequity">Long-Term Debt to Equity Ratio:</string>
+
+</resources>

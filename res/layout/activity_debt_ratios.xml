@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".DebtRatios" >
+    
+    <TextView
+        android:id="@+id/txttitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/der"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/skyblue"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txttitle"
+        android:layout_below="@+id/txttitle"
+        android:text="@string/debtdecs"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="32dp"
+        android:text="@string/totallia"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/edittotallia"
+        android:layout_width="wrap_content"
+        android:layout_height="40dip"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/roundcorner"
+        android:ems="10"
+        android:inputType="number"
+        android:paddingLeft="10sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/edittotalass"
+        android:layout_width="wrap_content"
+        android:layout_height="40dip"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/roundcorner"
+        android:ems="10"
+        android:inputType="number"
+        android:paddingLeft="10sp" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/edittotallia"
+        android:layout_marginTop="10dp"
+        android:text="@string/totalass"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/txtassets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/edittotalass"
+        android:layout_marginTop="10dp"
+        android:text="@string/debtratio"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/btncal"
+        style="@style/btnStyleShakespeare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/cal"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edittotalass"
+        android:layout_below="@+id/txtassets"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

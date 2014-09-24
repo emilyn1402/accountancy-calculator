@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Category" >
+
+    <Button
+        android:id="@+id/btnbasic"
+        style="@style/btnStyleShakespeare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:drawableLeft="@drawable/cal"
+        android:text="@string/basic"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btndebt"
+        style="@style/btnStyleShakespeare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnbasic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@drawable/debt"
+        android:text="@string/debt"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnmarket"
+        style="@style/btnStyleShakespeare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btndebt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@drawable/market"
+        android:text="@string/mar"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnliquidity"
+        style="@style/btnStyleShakespeare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnmarket"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@drawable/cash"
+        android:text="@string/liquid"
+        android:textSize="20sp" />
+    
+    <Button
+        android:id="@+id/btndepre"
+        style="@style/btnStyleShakespeare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnliquidity"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@drawable/book"
+        android:text="@string/depre"
+        android:textSize="20sp" />
+
+</RelativeLayout>
