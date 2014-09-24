@@ -7,6 +7,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Ebit extends Activity {
 
@@ -33,13 +34,39 @@ public class Ebit extends Activity {
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
 				
-				revenue = Double.parseDouble(editrev.getText().toString());
-				oexpenses = Double.parseDouble(editoe.getText().toString());
+				if (editrev.getText().toString().equals("")) {
+
+					Toast.makeText(getApplicationContext(),
+							"Please Fill up all!", Toast.LENGTH_LONG).show();
+
+					if (editoe.getText().equals(0)) {
+
+						Toast.makeText(getApplicationContext(),
+								"Please Fill up all!", Toast.LENGTH_LONG)
+								.show();
+
+					}
+
+				} else if (editoe.getText().toString().equals("")) {
+
+					Toast.makeText(getApplicationContext(),
+							"Please Fill up all!", Toast.LENGTH_LONG).show();
+
+				} else {
+
+					revenue = Double.parseDouble(editrev.getText()
+							.toString());
+					oexpenses = Double
+							.parseDouble(editoe.getText().toString());
+
+					answer = revenue + oexpenses;
+
+					txtans.setText(answer + "");
+
+				}
+
+			}
 				
-				answer = revenue - oexpenses;
-				
-				txtans.setText(answer + "");
-				
-			}});
+			});
 	}
 }

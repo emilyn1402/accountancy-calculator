@@ -7,6 +7,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Equity extends Activity {
 	
@@ -33,13 +34,37 @@ public class Equity extends Activity {
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
 				
-				asset = Double.parseDouble(editass.getText().toString());
-				liabilities = Double.parseDouble(editlia.getText().toString());
-				
-				answer = asset - liabilities;
-				
-				txtans.setText(answer + "");
-				
+				if (editass.getText().toString().equals("")) {
+
+					Toast.makeText(getApplicationContext(),
+							"Please Fill up all!", Toast.LENGTH_LONG).show();
+
+					if (editlia.getText().equals(0)) {
+
+						Toast.makeText(getApplicationContext(),
+								"Please Fill up all!", Toast.LENGTH_LONG)
+								.show();
+
+					}
+
+				} else if (editlia.getText().toString().equals("")) {
+
+					Toast.makeText(getApplicationContext(),
+							"Please Fill up all!", Toast.LENGTH_LONG).show();
+
+				} else {
+
+					asset = Double.parseDouble(editass.getText()
+							.toString());
+					liabilities = Double
+							.parseDouble(editlia.getText().toString());
+
+					answer = asset + liabilities;
+
+					txtans.setText(answer + "");
+
+				}
+
 			}});
 	}
 

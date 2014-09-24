@@ -35,7 +35,7 @@ public class Assets extends Activity {
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
 
-				if (editlia.getText().toString().equals(0)) {
+				if (editlia.getText().toString().equals("")) {
 
 					Toast.makeText(getApplicationContext(),
 							"Please Fill up all!", Toast.LENGTH_LONG).show();
@@ -48,7 +48,7 @@ public class Assets extends Activity {
 
 					}
 
-				} else if (editequity.getText().toString().equals(0)) {
+				} else if (editequity.getText().toString().equals("")) {
 
 					Toast.makeText(getApplicationContext(),
 							"Please Fill up all!", Toast.LENGTH_LONG).show();
