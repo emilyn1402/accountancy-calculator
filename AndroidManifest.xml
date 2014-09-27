@@ -97,6 +97,10 @@
             android:label="@string/app_name"
             android:parentActivityName="edu.ucuccs.accountancycalculator.DebtRatio" >
         </activity>
+        <activity
+            android:name="edu.ucuccs.accountancycalculator.DividendCover"
+            android:label="@string/title_activity_dividend_cover" >
+        </activity>
     </application>
 
 </manifest>

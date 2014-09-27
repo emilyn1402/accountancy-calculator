@@ -91,5 +91,10 @@
     <string name="ltlia">Long-Term Liabilities</string>
     <string name="ltdebtdecs">-Equity vs long-term debt. \nLong-Term Debt to Equity Ratio = Long-Term Liabilities / Equity</string>
     <string name="ltdebtequity">Long-Term Debt to Equity Ratio:</string>
+    <string name="title_activity_dividend_cover">DividendCover</string>
+    <string name="divC">-Earnings compared to dividends. \nDividend Cover = Earnings per Share / Dividends per Share</string>
+    <string name="epershare">Earning per Share:</string>
+    <string name="divshare">Dividend per Share:</string>
+    <string name="diviC">Dividend Cover:</string>
 
 </resources>
