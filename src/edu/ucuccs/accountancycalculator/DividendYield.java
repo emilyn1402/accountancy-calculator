@@ -9,22 +9,22 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class DividendCover extends Activity {
-
-	EditText editearning;
-	EditText editdividen;
+public class DividendYield extends Activity {
+	
+	EditText editannual;
+	EditText editprice;
 	Button btncal;
 	TextView txtans;
 	
-	double earning, dividend, answer;
-	
+	double annual, price, answer;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_dividend_cover);
+		setContentView(R.layout.activity_dividend_yield);
 		
-		editearning = (EditText) findViewById(R.id.editearning);
-		editdividen = (EditText) findViewById(R.id.editdividen);
+		editannual = (EditText) findViewById(R.id.editannual);
+		editprice = (EditText) findViewById(R.id.editprice);
 		btncal = (Button) findViewById(R.id.btncal);
 		txtans = (TextView) findViewById(R.id.txtans);
 		
@@ -34,12 +34,12 @@ public class DividendCover extends Activity {
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
 				
-				if (editearning.getText().toString().equals("")) {
+				if (editannual.getText().toString().equals("")) {
 
 					Toast.makeText(getApplicationContext(),
 							"Please Fill up all!", Toast.LENGTH_LONG).show();
 
-					if (editdividen.getText().toString().equals(0)) {
+					if (editprice.getText().toString().equals(0)) {
 
 						Toast.makeText(getApplicationContext(),
 								"Please Fill up all!", Toast.LENGTH_LONG)
@@ -47,19 +47,19 @@ public class DividendCover extends Activity {
 
 					}
 
-				} else if (editdividen.getText().toString().equals("")) {
+				} else if (editprice.getText().toString().equals("")) {
 
 					Toast.makeText(getApplicationContext(),
 							"Please Fill up all!", Toast.LENGTH_LONG).show();
 
 				} else {
 
-					earning = Double.parseDouble(editearning.getText()
+					annual = Double.parseDouble(editannual.getText()
 							.toString());
-					dividend = Double
-							.parseDouble(editdividen.getText().toString());
+					price = Double
+							.parseDouble(editprice.getText().toString());
 
-					answer = earning / dividend;
+					answer = annual / price;
 
 					txtans.setText(answer + "");
 
@@ -67,5 +67,4 @@ public class DividendCover extends Activity {
 
 			}});
 	}
-
 }

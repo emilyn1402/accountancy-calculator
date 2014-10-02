@@ -96,5 +96,26 @@
     <string name="epershare">Earning per Share:</string>
     <string name="divshare">Dividend per Share:</string>
     <string name="diviC">Dividend Cover:</string>
+    <string name="title_activity_dividend_yield">DividendYield</string>
+    <string name="divYdecs">-Dividends compared to market capitalization. \nDividend Yield = Annual Dividends per Share / Price per Share</string>
+    <string name="annual">Annual Dividends per Share:</string>
+    <string name="priceshare">Price per Share:</string>
+    <string name="divY">Dividend Yield:</string>
+    <string name="title_activity_dividend_share">DividendShare</string>
+    <string name="divSdecs">-Dividends compared to market capitalization. \nDividend per Share = Dividends Paid / Number of Shares</string>
+    <string name="divpaid">Dividends Paid:</string>
+    <string name="numshare">Number of Shares:</string>
+    <string name="divS">Dividend per Share:</string>
+    <string name="title_activity_earning_share">EarningShare</string>
+    <string name="epsdecs">-Amount of earnings for each share. \nEarning per Share = Net Earnings / Number of Shares</string>
+    <string name="netearning">Net Earnings:</string>
+    <string name="epshare">Earning per Share:</string>
+    <string name="title_activity_payout_ratio">PayoutRatio</string>
+    <string name="pratiodesc">-Dividends per earnings. \nPayout Ratio = Dividends / Earnings</string>
+    <string name="div">Dividends:</string>
+    <string name="earning">Earnings:</string>
+    <string name="pratio">Payout Ratio:</string>
+    <string name="title_activity_pegratio">PEGRatio</string>
+    <string name="title_activity_price_sales">PriceSales</string>
 
 </resources>
