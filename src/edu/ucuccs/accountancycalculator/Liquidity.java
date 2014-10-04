@@ -42,7 +42,7 @@ public class Liquidity extends Activity {
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
 				
-				Intent gotodebtratio = new Intent (Liquidity.this, DebtRatios.class);
+				Intent gotodebtratio = new Intent (Liquidity.this, CashRatio.class);
 				startActivity(gotodebtratio);
 				
 			}});

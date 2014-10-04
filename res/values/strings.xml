@@ -128,5 +128,10 @@
     <string name="invent">Inventories:</string>
     <string name="clia">Current Liabilities:</string>
     <string name="acidtest">Acid Test Ratio:</string>
+    <string name="title_activity_cash_ratio">CashRatio</string>
+    <string name="cashdecs">-Cash compared to liabilities. \nCash Ratio = (Cash + Marketable Securities) / Current Liabilities</string>
+    <string name="ca">Cash:</string>
+    <string name="marsec">Marketable Securities:</string>
+    <string name="cashratio">Cash Ratio:s</string>
 
 </resources>

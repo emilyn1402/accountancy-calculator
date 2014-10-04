@@ -9,23 +9,23 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class AcidTestRatio extends Activity {
+public class CashRatio extends Activity {
 	
-	EditText editcass;
-	EditText editinvent;
+	EditText editca;
+	EditText editmarsec;
 	EditText editclia;
 	Button btncal;
 	TextView txtans;
 	
-	Double ass, invent, lia, sub, answer;
+	Double cash, marsec, lia, sub, answer;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_acid_test_ratio);
+		setContentView(R.layout.activity_cash_ratio);
 		
-		editcass = (EditText) findViewById(R.id.editcass);
-		editinvent = (EditText) findViewById(R.id.editinvent);
+		editca = (EditText) findViewById(R.id.editca);
+		editmarsec = (EditText) findViewById(R.id.editmarsec);
 		editclia = (EditText) findViewById(R.id.editclia);
 		btncal = (Button) findViewById(R.id.btncal);
 		txtans = (TextView) findViewById(R.id.txtans);
@@ -36,12 +36,12 @@ public class AcidTestRatio extends Activity {
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
 				
-				if (editcass.getText().toString().equals("")) {
+				if (editca.getText().toString().equals("")) {
 
 					Toast.makeText(getApplicationContext(),
 							"Please Fill up all!", Toast.LENGTH_LONG).show();
 
-					if (editinvent.getText().toString().equals(0)) {
+					if (editmarsec.getText().toString().equals(0)) {
 
 						Toast.makeText(getApplicationContext(),
 								"Please Fill up all!", Toast.LENGTH_LONG)
@@ -57,7 +57,7 @@ public class AcidTestRatio extends Activity {
 
 					}
 
-				} else if (editinvent.getText().toString().equals("")) {
+				} else if (editmarsec.getText().toString().equals("")) {
 
 					Toast.makeText(getApplicationContext(),
 							"Please Fill up all!", Toast.LENGTH_LONG).show();
@@ -79,11 +79,11 @@ public class AcidTestRatio extends Activity {
 
 				}  else {
 
-					ass = Double.parseDouble(editcass.getText().toString());
-					invent = Double.parseDouble(editinvent.getText().toString());
+					cash = Double.parseDouble(editca.getText().toString());
+					marsec = Double.parseDouble(editmarsec.getText().toString());
 					lia = Double.parseDouble(editclia.getText().toString());
 					
-					sub = ass - invent;
+					sub = cash - marsec;
 					answer = sub / lia;
 					
 					txtans.setText(answer + "");
