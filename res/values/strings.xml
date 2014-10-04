@@ -118,5 +118,15 @@
     <string name="title_activity_pegratio">PEGRatio</string>
     <string name="title_activity_price_sales">PriceSales</string>
     <string name="title_activity_liquidity">Liquidity</string>
+    <string name="acid">Acid Test Ratio</string>
+    <string name="cash">Cash Ratio</string>
+    <string name="work">Working Capital Ratio</string>
+    <string name="operation">Operation Cash Flow Ratio</string>
+    <string name="title_activity_acid_test_ratio">AcidTestRatio</string>
+    <string name="acidecs">-A quick way to measure a company liquidity. \nAcid Test Ratio = (Current Assets - Inventories) / Current Liabilities</string>
+    <string name="cass">Current Assets:</string>
+    <string name="invent">Inventories:</string>
+    <string name="clia">Current Liabilities:</string>
+    <string name="acidtest">Acid Test Ratio:</string>
 
 </resources>

@@ -9,8 +9,59 @@
     tools:context=".Liquidity" >
 
     <TextView
+        android:id="@+id/txtbasic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="@string/debt"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/skyblue"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnacid"
+        style="@style/btnStyleShakespeare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtbasic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/acid"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btncash"
+        style="@style/btnStyleShakespeare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnacid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/cash"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btncurrent"
+        style="@style/btnStyleShakespeare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btncash"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/work"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnoperation"
+        style="@style/btnStyleShakespeare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btncurrent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/operation"
+        android:textSize="18sp" />
 
 </RelativeLayout>

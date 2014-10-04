@@ -136,6 +136,10 @@
             android:name="edu.ucuccs.accountancycalculator.Liquidity"
             android:label="@string/title_activity_liquidity" >
         </activity>
+        <activity
+            android:name="edu.ucuccs.accountancycalculator.AcidTestRatio"
+            android:label="@string/title_activity_acid_test_ratio" >
+        </activity>
     </application>
 
 </manifest>
