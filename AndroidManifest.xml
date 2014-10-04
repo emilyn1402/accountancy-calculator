@@ -132,6 +132,10 @@
             android:label="@string/app_name"
             android:parentActivityName="edu.ucuccs.accountancycalculator.MarketRatio" >
         </activity>
+        <activity
+            android:name="edu.ucuccs.accountancycalculator.Liquidity"
+            android:label="@string/title_activity_liquidity" >
+        </activity>
     </application>
 
 </manifest>

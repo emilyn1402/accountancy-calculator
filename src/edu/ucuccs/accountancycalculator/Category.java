@@ -13,6 +13,8 @@ public class Category extends Activity {
 	Button btnbasic;
 	Button btndebt;
 	Button btnmarket;
+	Button btnliquidity;
+	Button btndepre;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -53,6 +55,19 @@ public class Category extends Activity {
 				// TODO Auto-generated method stub
 				
 				Intent gotomarket = new Intent (Category.this, MarketRatio.class);
+				startActivity(gotomarket);
+				
+			}});
+		
+
+		
+		btnliquidity.setOnClickListener(new OnClickListener(){
+
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				
+				Intent gotomarket = new Intent (Category.this, Liquidity.class);
 				startActivity(gotomarket);
 				
 			}});

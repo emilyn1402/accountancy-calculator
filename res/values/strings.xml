@@ -117,5 +117,6 @@
     <string name="pratio">Payout Ratio:</string>
     <string name="title_activity_pegratio">PEGRatio</string>
     <string name="title_activity_price_sales">PriceSales</string>
+    <string name="title_activity_liquidity">Liquidity</string>
 
 </resources>

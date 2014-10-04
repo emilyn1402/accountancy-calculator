@@ -152,15 +152,16 @@ public final class R {
         public static final int activity_equity=0x7f03000c;
         public static final int activity_gross_profit=0x7f03000d;
         public static final int activity_liabilities=0x7f03000e;
-        public static final int activity_long_term_debt_equity=0x7f03000f;
-        public static final int activity_main=0x7f030010;
-        public static final int activity_market_ratio=0x7f030011;
-        public static final int activity_net_income=0x7f030012;
-        public static final int activity_operating_profit=0x7f030013;
-        public static final int activity_payout_ratio=0x7f030014;
-        public static final int activity_pegratio=0x7f030015;
-        public static final int activity_price_sales=0x7f030016;
-        public static final int activity_sales_revenue=0x7f030017;
+        public static final int activity_liquidity=0x7f03000f;
+        public static final int activity_long_term_debt_equity=0x7f030010;
+        public static final int activity_main=0x7f030011;
+        public static final int activity_market_ratio=0x7f030012;
+        public static final int activity_net_income=0x7f030013;
+        public static final int activity_operating_profit=0x7f030014;
+        public static final int activity_payout_ratio=0x7f030015;
+        public static final int activity_pegratio=0x7f030016;
+        public static final int activity_price_sales=0x7f030017;
+        public static final int activity_sales_revenue=0x7f030018;
     }
     public static final class menu {
         public static final int assets=0x7f080000;
@@ -179,15 +180,16 @@ public final class R {
         public static final int equity=0x7f08000d;
         public static final int gross_profit=0x7f08000e;
         public static final int liabilities=0x7f08000f;
-        public static final int long_term_debt_equity=0x7f080010;
-        public static final int main=0x7f080011;
-        public static final int market_ratio=0x7f080012;
-        public static final int net_income=0x7f080013;
-        public static final int operating_profit=0x7f080014;
-        public static final int payout_ratio=0x7f080015;
-        public static final int pegratio=0x7f080016;
-        public static final int price_sales=0x7f080017;
-        public static final int sales_revenue=0x7f080018;
+        public static final int liquidity=0x7f080010;
+        public static final int long_term_debt_equity=0x7f080011;
+        public static final int main=0x7f080012;
+        public static final int market_ratio=0x7f080013;
+        public static final int net_income=0x7f080014;
+        public static final int operating_profit=0x7f080015;
+        public static final int payout_ratio=0x7f080016;
+        public static final int pegratio=0x7f080017;
+        public static final int price_sales=0x7f080018;
+        public static final int sales_revenue=0x7f080019;
     }
     public static final class string {
         public static final int action_settings=0x7f050001;
@@ -292,6 +294,7 @@ public final class R {
         public static final int title_activity_equity=0x7f05002d;
         public static final int title_activity_gross_profit=0x7f05002f;
         public static final int title_activity_liabilities=0x7f050032;
+        public static final int title_activity_liquidity=0x7f050070;
         public static final int title_activity_long_term_debt_equity=0x7f050052;
         public static final int title_activity_market_ratio=0x7f050024;
         public static final int title_activity_net_income=0x7f050035;
