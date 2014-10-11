@@ -64,7 +64,7 @@ public class Liquidity extends Activity {
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
 				
-				Intent gotolongterm = new Intent (Liquidity.this, LongTermDebtEquity.class);
+				Intent gotolongterm = new Intent (Liquidity.this, OperatingRatio.class);
 				startActivity(gotolongterm);
 				
 			}});

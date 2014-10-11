@@ -132,9 +132,14 @@
     <string name="cashdecs">-Cash compared to liabilities. \nCash Ratio = (Cash + Marketable Securities) / Current Liabilities</string>
     <string name="ca">Cash:</string>
     <string name="marsec">Marketable Securities:</string>
-    <string name="cashratio">Cash Ratio:s</string>
+    <string name="cashratio">Cash Ratio:</string>
     <string name="title_activity_current_ratio">CurrentRatio</string>
     <string name="currentdecs">-Measures ability to pay short-term liabilities. \nWorking Capital Ratio = Current Assets / Current Liabilities</string>
     <string name="current">Working Capital Ratio:</string>
+    <string name="title_activity_operating_ratio">OperatingRatio</string>
+    <string name="opedecs">-Ability to pay liabilities with operating cash flow. \n Operation Cash Flow Ratio = Operating Cash Flow / Total Debts</string>
+    <string name="oper">Operation Cash Flow Ratio:</string>
+    <string name="opera">Operating Cash Flow:</string>
+    <string name="tdebts">Total Debts:</string>
 
 </resources>

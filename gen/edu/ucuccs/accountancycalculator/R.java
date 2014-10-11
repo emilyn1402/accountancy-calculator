@@ -72,7 +72,7 @@ public final class R {
         public static final int tab_unselected_pressed_myaction=0x7f02002c;
     }
     public static final class id {
-        public static final int action_settings=0x7f090047;
+        public static final int action_settings=0x7f090049;
         public static final int btnacid=0x7f090034;
         public static final int btnasset=0x7f090010;
         public static final int btnbasic=0x7f09001a;
@@ -109,13 +109,13 @@ public final class R {
         public static final int editclia=0x7f090008;
         public static final int editcogs=0x7f090033;
         public static final int editdebtservice=0x7f090027;
-        public static final int editdiv=0x7f090044;
+        public static final int editdiv=0x7f090046;
         public static final int editdividen=0x7f09002a;
         public static final int editearning=0x7f090029;
         public static final int editequity=0x7f09000d;
         public static final int editgp=0x7f090043;
         public static final int editgross=0x7f090040;
-        public static final int editgs=0x7f090045;
+        public static final int editgs=0x7f090047;
         public static final int editinterest=0x7f090042;
         public static final int editinvent=0x7f090006;
         public static final int editlia=0x7f09000c;
@@ -125,13 +125,15 @@ public final class R {
         public static final int editnetoincome=0x7f090026;
         public static final int editnumshare=0x7f09002c;
         public static final int editoe=0x7f090031;
+        public static final int editoperation=0x7f090044;
         public static final int editpaid=0x7f09002b;
         public static final int editprice=0x7f09002e;
         public static final int editrev=0x7f090030;
         public static final int editshareequity=0x7f090028;
-        public static final int editsra=0x7f090046;
+        public static final int editsra=0x7f090048;
         public static final int edittax=0x7f090041;
         public static final int edittotalass=0x7f090025;
+        public static final int edittotaldebt=0x7f090045;
         public static final int edittotallia=0x7f090024;
         public static final int scrollView1=0x7f090002;
         public static final int textView1=0x7f090001;
@@ -170,10 +172,11 @@ public final class R {
         public static final int activity_market_ratio=0x7f030015;
         public static final int activity_net_income=0x7f030016;
         public static final int activity_operating_profit=0x7f030017;
-        public static final int activity_payout_ratio=0x7f030018;
-        public static final int activity_pegratio=0x7f030019;
-        public static final int activity_price_sales=0x7f03001a;
-        public static final int activity_sales_revenue=0x7f03001b;
+        public static final int activity_operating_ratio=0x7f030018;
+        public static final int activity_payout_ratio=0x7f030019;
+        public static final int activity_pegratio=0x7f03001a;
+        public static final int activity_price_sales=0x7f03001b;
+        public static final int activity_sales_revenue=0x7f03001c;
     }
     public static final class menu {
         public static final int acid_test_ratio=0x7f080000;
@@ -201,10 +204,11 @@ public final class R {
         public static final int market_ratio=0x7f080016;
         public static final int net_income=0x7f080017;
         public static final int operating_profit=0x7f080018;
-        public static final int payout_ratio=0x7f080019;
-        public static final int pegratio=0x7f08001a;
-        public static final int price_sales=0x7f08001b;
-        public static final int sales_revenue=0x7f08001c;
+        public static final int operating_ratio=0x7f080019;
+        public static final int payout_ratio=0x7f08001a;
+        public static final int pegratio=0x7f08001b;
+        public static final int price_sales=0x7f08001c;
+        public static final int sales_revenue=0x7f08001d;
     }
     public static final class string {
         public static final int acid=0x7f050071;
@@ -292,6 +296,9 @@ public final class R {
         public static final int oe=0x7f050029;
         public static final int op=0x7f050011;
         public static final int opdecs=0x7f05003b;
+        public static final int opedecs=0x7f050084;
+        public static final int oper=0x7f050085;
+        public static final int opera=0x7f050086;
         public static final int operation=0x7f050074;
         public static final int oprofit=0x7f05003c;
         public static final int payoutratio=0x7f05001e;
@@ -307,6 +314,7 @@ public final class R {
         public static final int srdecs=0x7f05003e;
         public static final int srevenue=0x7f050041;
         public static final int tax=0x7f050037;
+        public static final int tdebts=0x7f050087;
         public static final int title_activity_acid_test_ratio=0x7f050075;
         public static final int title_activity_assets=0x7f050025;
         public static final int title_activity_basic_equation=0x7f050022;
@@ -331,6 +339,7 @@ public final class R {
         public static final int title_activity_market_ratio=0x7f050024;
         public static final int title_activity_net_income=0x7f050035;
         public static final int title_activity_operating_profit=0x7f05003a;
+        public static final int title_activity_operating_ratio=0x7f050083;
         public static final int title_activity_payout_ratio=0x7f050069;
         public static final int title_activity_pegratio=0x7f05006e;
         public static final int title_activity_price_sales=0x7f05006f;
