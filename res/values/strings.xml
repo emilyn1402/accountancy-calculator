@@ -133,5 +133,8 @@
     <string name="ca">Cash:</string>
     <string name="marsec">Marketable Securities:</string>
     <string name="cashratio">Cash Ratio:s</string>
+    <string name="title_activity_current_ratio">CurrentRatio</string>
+    <string name="currentdecs">-Measures ability to pay short-term liabilities. \nWorking Capital Ratio = Current Assets / Current Liabilities</string>
+    <string name="current">Working Capital Ratio:</string>
 
 </resources>

@@ -144,6 +144,10 @@
             android:name="edu.ucuccs.accountancycalculator.CashRatio"
             android:label="@string/title_activity_cash_ratio" >
         </activity>
+        <activity
+            android:name="edu.ucuccs.accountancycalculator.CurrentRatio"
+            android:label="@string/title_activity_current_ratio" >
+        </activity>
     </application>
 
 </manifest>

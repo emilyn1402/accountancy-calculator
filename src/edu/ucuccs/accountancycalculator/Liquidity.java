@@ -53,7 +53,7 @@ public class Liquidity extends Activity {
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
 				
-				Intent gotodebtservice = new Intent (Liquidity.this, DebtServiceCourage.class);
+				Intent gotodebtservice = new Intent (Liquidity.this, CurrentRatio.class);
 				startActivity(gotodebtservice);
 				
 			}});
