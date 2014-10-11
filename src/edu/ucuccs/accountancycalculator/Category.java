@@ -3,7 +3,6 @@ package edu.ucuccs.accountancycalculator;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -24,6 +23,8 @@ public class Category extends Activity {
 		btnbasic = (Button) findViewById(R.id.btnbasic);
 		btndebt = (Button) findViewById(R.id.btndebt);
 		btnmarket = (Button) findViewById(R.id.btnmarket);
+		btnliquidity = (Button) findViewById(R.id.btnliquidity);
+		btndepre = (Button) findViewById(R.id.btndepre);
 		
 		
 		btnbasic.setOnClickListener(new OnClickListener(){
@@ -83,12 +84,4 @@ public class Category extends Activity {
 				
 			}});
 	}
-
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.category, menu);
-		return true;
-	}
-
 }
