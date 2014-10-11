@@ -28,7 +28,7 @@
         android:layout_below="@+id/txtbasic"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:text="@string/acid"
+        android:text="@string/book"
         android:textSize="20sp" />
 
     <Button
@@ -39,7 +39,7 @@
         android:layout_below="@+id/btnbook"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:text="@string/cash"
+        android:text="@string/declining"
         android:textSize="20sp" />
 
     <Button
@@ -50,7 +50,7 @@
         android:layout_below="@+id/btndec"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:text="@string/work"
+        android:text="@string/straight"
         android:textSize="18sp" />
 
     <Button
@@ -61,7 +61,7 @@
         android:layout_below="@+id/btnstraight"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:text="@string/operation"
+        android:text="@string/pro"
         android:textSize="18sp" />
 
 </RelativeLayout>

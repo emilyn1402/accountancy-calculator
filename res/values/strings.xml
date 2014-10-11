@@ -137,10 +137,19 @@
     <string name="currentdecs">-Measures ability to pay short-term liabilities. \nWorking Capital Ratio = Current Assets / Current Liabilities</string>
     <string name="current">Working Capital Ratio:</string>
     <string name="title_activity_operating_ratio">OperatingRatio</string>
-    <string name="opedecs">-Ability to pay liabilities with operating cash flow. \n Operation Cash Flow Ratio = Operating Cash Flow / Total Debts</string>
+    <string name="opedecs">-Ability to pay liabilities with operating cash flow. \nOperation Cash Flow Ratio = Operating Cash Flow / Total Debts</string>
     <string name="oper">Operation Cash Flow Ratio:</string>
     <string name="opera">Operating Cash Flow:</string>
     <string name="tdebts">Total Debts:</string>
     <string name="title_activity_depreciation">Depreciation</string>
-
+    <string name="title_activity_book_value">BookValue</string>
+    <string name="book">Book Value</string>
+    <string name="declining">Declining Balance</string>
+    <string name="straight">Straight-Line Method</string>
+    <string name="pro">Units of Production</string>
+    <string name="decsbook">-The value of an asset on a companys balance sheet. \nBook Value = Acquisition Cost - Depreciation</string>
+	<string name="acq">Acquisition Cost:</string>
+	<string name="deprec">Depreciation:</string>
+	<string name="bookv">Book Value:</string>
+    
 </resources>

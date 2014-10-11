@@ -162,6 +162,10 @@
             android:label="@string/app_name"
             android:parentActivityName="edu.ucuccs.accountancycalculator.Category" >
         </activity>
+        <activity
+            android:name="edu.ucuccs.accountancycalculator.BookValue"
+            android:label="@string/title_activity_book_value" >
+        </activity>
     </application>
 
 </manifest>
