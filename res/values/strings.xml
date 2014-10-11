@@ -148,8 +148,13 @@
     <string name="straight">Straight-Line Method</string>
     <string name="pro">Units of Production</string>
     <string name="decsbook">-The value of an asset on a companys balance sheet. \nBook Value = Acquisition Cost - Depreciation</string>
-	<string name="acq">Acquisition Cost:</string>
-	<string name="deprec">Depreciation:</string>
-	<string name="bookv">Book Value:</string>
+    <string name="acq">Acquisition Cost:</string>
+    <string name="deprec">Depreciation:</string>
+    <string name="bookv">Book Value:</string>
+    <string name="title_activity_declining_balance">DecliningBalance</string>
+    <string name="decline">Declining Balance:</string>
+    <string name="declinedecs">-Commonly used method of accelerated depreciation. \nDeclining Balance = Depreciation Rate x Book Value at Beginning of Year</string>
+	<string name="deprerate">Depreciation Rate:</string>
+	<string name="bookyear">Book Value at Beginning of Year:</string>
     
 </resources>

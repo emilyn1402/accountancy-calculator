@@ -166,6 +166,10 @@
             android:name="edu.ucuccs.accountancycalculator.BookValue"
             android:label="@string/title_activity_book_value" >
         </activity>
+        <activity
+            android:name="edu.ucuccs.accountancycalculator.DecliningBalance"
+            android:label="@string/title_activity_declining_balance" >
+        </activity>
     </application>
 
 </manifest>
