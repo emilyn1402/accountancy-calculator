@@ -6,8 +6,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".Liquidity" >
-
+    tools:context=".Depreciation" >
+    
     <TextView
         android:id="@+id/txtbasic"
         android:layout_width="wrap_content"
@@ -15,13 +15,13 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="5dp"
-        android:text="@string/title_activity_liquidity"
+        android:text="@string/title_activity_depreciation"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="@color/skyblue"
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/btnacid"
+        android:id="@+id/btnbook"
         style="@style/btnStyleShakespeare"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -32,33 +32,33 @@
         android:textSize="20sp" />
 
     <Button
-        android:id="@+id/btncash"
+        android:id="@+id/btndec"
         style="@style/btnStyleShakespeare"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/btnacid"
+        android:layout_below="@+id/btnbook"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:text="@string/cash"
         android:textSize="20sp" />
 
     <Button
-        android:id="@+id/btncurrent"
+        android:id="@+id/btnstraight"
         style="@style/btnStyleShakespeare"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/btncash"
+        android:layout_below="@+id/btndec"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:text="@string/work"
         android:textSize="18sp" />
 
     <Button
-        android:id="@+id/btnoperation"
+        android:id="@+id/btnpro"
         style="@style/btnStyleShakespeare"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/btncurrent"
+        android:layout_below="@+id/btnstraight"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:text="@string/operation"

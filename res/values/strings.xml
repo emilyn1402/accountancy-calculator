@@ -141,5 +141,6 @@
     <string name="oper">Operation Cash Flow Ratio:</string>
     <string name="opera">Operating Cash Flow:</string>
     <string name="tdebts">Total Debts:</string>
+    <string name="title_activity_depreciation">Depreciation</string>
 
 </resources>

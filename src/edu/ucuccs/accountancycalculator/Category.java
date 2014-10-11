@@ -71,6 +71,17 @@ public class Category extends Activity {
 				startActivity(gotomarket);
 				
 			}});
+		
+		btndepre.setOnClickListener(new OnClickListener(){
+
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				
+				Intent gotomarket = new Intent (Category.this, Depreciation.class);
+				startActivity(gotomarket);
+				
+			}});
 	}
 
 	@Override

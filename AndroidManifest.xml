@@ -134,23 +134,33 @@
         </activity>
         <activity
             android:name="edu.ucuccs.accountancycalculator.Liquidity"
-            android:label="@string/title_activity_liquidity" >
+            android:label="@string/app_name"
+            android:parentActivityName="edu.ucuccs.accountancycalculator.Category" >
         </activity>
         <activity
             android:name="edu.ucuccs.accountancycalculator.AcidTestRatio"
-            android:label="@string/title_activity_acid_test_ratio" >
+            android:label="@string/app_name"
+            android:parentActivityName="edu.ucuccs.accountancycalculator.Liquidity" >
         </activity>
         <activity
             android:name="edu.ucuccs.accountancycalculator.CashRatio"
-            android:label="@string/title_activity_cash_ratio" >
+            android:label="@string/app_name"
+            android:parentActivityName="edu.ucuccs.accountancycalculator.Liquidity" >
         </activity>
         <activity
             android:name="edu.ucuccs.accountancycalculator.CurrentRatio"
-            android:label="@string/title_activity_current_ratio" >
+            android:label="@string/app_name"
+            android:parentActivityName="edu.ucuccs.accountancycalculator.Liquidity" >
         </activity>
         <activity
             android:name="edu.ucuccs.accountancycalculator.OperatingRatio"
-            android:label="@string/title_activity_operating_ratio" >
+            android:label="@string/app_name"
+            android:parentActivityName="edu.ucuccs.accountancycalculator.Liquidity" >
+        </activity>
+        <activity
+            android:name="edu.ucuccs.accountancycalculator.Depreciation"
+            android:label="@string/app_name"
+            android:parentActivityName="edu.ucuccs.accountancycalculator.Category" >
         </activity>
     </application>
 
