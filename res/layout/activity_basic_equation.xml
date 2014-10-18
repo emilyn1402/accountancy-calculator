@@ -7,7 +7,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".BasicEquation" >
+    tools:context=".BasicEquation"
+    android:gravity="center" >
 
     <TextView
         android:id="@+id/txtbasic"
@@ -29,7 +30,8 @@
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical" >
+            android:orientation="vertical"
+            android:gravity="center" >
 
             <Button
                 android:id="@+id/btnasset"
@@ -37,7 +39,6 @@
                 android:layout_width="250dip"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:layout_marginLeft="18dip"
                 android:gravity="left"
                 android:paddingLeft="100dp"
                 android:text="@string/ass"
@@ -48,7 +49,6 @@
                 style="@style/btnStyleShakespeare"
                 android:layout_width="250dip"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="18dip"
                 android:gravity="left"
                 android:paddingLeft="100dp"
                 android:layout_marginTop="10dp"
@@ -61,7 +61,6 @@
                 android:layout_width="250dip"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="18dip"
                 android:gravity="left"
                 android:paddingLeft="100dp"
                 android:text="@string/equ"
@@ -73,7 +72,6 @@
                 android:layout_width="250dip"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="18dip"
                 android:gravity="left"
                 android:paddingLeft="100dp"
                 android:text="@string/gross"
@@ -85,7 +83,6 @@
                 android:layout_width="250dip"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="18dip"
                 android:gravity="left"
                 android:paddingLeft="100dp"
                 android:text="@string/lia"
@@ -97,7 +94,6 @@
                 android:layout_width="250dip"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="18dip"
                 android:gravity="left"
                 android:paddingLeft="100dp"
                 android:text="@string/net"
@@ -109,7 +105,6 @@
                 android:layout_width="250dip"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="18dip"
                 android:gravity="left"
                 android:paddingLeft="100dp"
                 android:text="@string/op"
@@ -121,7 +116,6 @@
                 android:layout_width="250dip"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="18dip"
                 android:gravity="left"
                 android:paddingLeft="100dp"
                 android:text="@string/sr"
