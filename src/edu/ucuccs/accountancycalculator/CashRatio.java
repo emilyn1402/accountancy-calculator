@@ -16,6 +16,8 @@ public class CashRatio extends Activity {
 	EditText editclia;
 	Button btncal;
 	TextView txtans;
+	TextView txtmain;
+	TextView txtdecs;
 	
 	Double cash, marsec, lia, sub, answer;
 
@@ -29,6 +31,18 @@ public class CashRatio extends Activity {
 		editclia = (EditText) findViewById(R.id.editclia);
 		btncal = (Button) findViewById(R.id.btncal);
 		txtans = (TextView) findViewById(R.id.txtans);
+		txtdecs = (TextView) findViewById(R.id.txtdecs);
+		txtmain = (TextView) findViewById(R.id.txtmain);
+		
+		txtmain.setOnClickListener(new OnClickListener(){
+
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				
+				txtdecs.setVisibility(View.VISIBLE);
+				
+			}});
 		
 		btncal.setOnClickListener(new OnClickListener(){
 
