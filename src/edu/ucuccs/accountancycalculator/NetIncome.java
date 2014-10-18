@@ -17,6 +17,8 @@ public class NetIncome extends Activity {
 	EditText editinterest;
 	Button btncal;
 	TextView txtans;
+	TextView txtmain;
+	TextView txtdecs;
 	
 	double gp, oe, tax, interest, answer;
 
@@ -31,6 +33,18 @@ public class NetIncome extends Activity {
 		editinterest = (EditText) findViewById(R.id.editinterest);
 		btncal = (Button) findViewById(R.id.btncal);
 		txtans = (TextView) findViewById(R.id.txtans);
+		txtdecs = (TextView) findViewById(R.id.txtdecs);
+		txtmain = (TextView) findViewById(R.id.txtmain);
+		
+		txtmain.setOnClickListener(new OnClickListener(){
+
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				
+				txtdecs.setVisibility(View.VISIBLE);
+				
+			}});
 		
 		btncal.setOnClickListener(new OnClickListener(){
 

@@ -15,6 +15,8 @@ public class Ebit extends Activity {
 	EditText editoe;
 	Button btncal;
 	TextView txtans;
+	TextView txtdecs;
+	TextView txtmain;
 	
 	double revenue, oexpenses, answer;
 
@@ -27,6 +29,18 @@ public class Ebit extends Activity {
 		editoe = (EditText) findViewById(R.id.editoe);
 		btncal = (Button) findViewById(R.id.btncal);
 		txtans = (TextView) findViewById(R.id.txtans);
+		txtdecs = (TextView) findViewById(R.id.txtdecs);
+		txtmain = (TextView) findViewById(R.id.txtmain);
+		
+		txtmain.setOnClickListener(new OnClickListener(){
+
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				
+				txtdecs.setVisibility(View.VISIBLE);
+				
+			}});
 		
 		btncal.setOnClickListener(new OnClickListener(){
 

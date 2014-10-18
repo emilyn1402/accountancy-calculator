@@ -6,8 +6,23 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".Category" >
+    tools:context=".Category">
 
+    
+
+    <Button
+        android:id="@+id/btnbasic"
+        style="@style/btnStyleShakespeare"
+        android:layout_width="250dip"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btndebt"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="19dp"
+        android:drawableLeft="@drawable/cal"
+        android:gravity="left"
+        android:text="@string/basic"
+        android:textSize="20sp" />
+    
     <Button
         android:id="@+id/btndebt"
         style="@style/btnStyleShakespeare"
@@ -58,19 +73,6 @@
         android:drawableLeft="@drawable/book"
         android:gravity="left"
         android:text="@string/depre"
-        android:textSize="20sp" />
-
-    <Button
-        android:id="@+id/btnbasic"
-        style="@style/btnStyleShakespeare"
-        android:layout_width="250dip"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/btndebt"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="19dp"
-        android:drawableLeft="@drawable/cal"
-        android:gravity="left"
-        android:text="@string/basic"
         android:textSize="20sp" />
 
 </RelativeLayout>

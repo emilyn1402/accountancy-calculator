@@ -10,21 +10,23 @@
     tools:context=".NetIncome" >
 
     <TextView
-        android:id="@+id/txtasset"
-        android:layout_width="wrap_content"
+        android:id="@+id/txtmain"
+        android:layout_width="250dip"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="5dp"
         android:text="@string/net"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="@color/skyblue"
+        android:drawableRight="@drawable/information"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/txtdecs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10sp"
+        android:visibility="gone"
         android:text="@string/netdecs"
         android:textSize="14sp" />
 
