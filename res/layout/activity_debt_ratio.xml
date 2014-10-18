@@ -23,44 +23,48 @@
     <Button
         android:id="@+id/btnder"
         style="@style/btnStyleShakespeare"
-        android:layout_width="match_parent"
+        android:layout_width="250dip"
         android:layout_height="wrap_content"
         android:layout_below="@+id/txtbasic"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
+        android:gravity="left"
         android:text="@string/der"
         android:textSize="20sp" />
 
     <Button
         android:id="@+id/btndebtratio"
         style="@style/btnStyleShakespeare"
-        android:layout_width="match_parent"
+        android:layout_width="250dip"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btnder"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
+        android:gravity="left"
         android:text="@string/debt"
         android:textSize="20sp" />
 
     <Button
         android:id="@+id/btndscr"
         style="@style/btnStyleShakespeare"
-        android:layout_width="match_parent"
+        android:layout_width="250dip"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btndebtratio"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
+        android:gravity="left"
         android:text="@string/dscr"
         android:textSize="18sp" />
 
     <Button
         android:id="@+id/btnlder"
         style="@style/btnStyleShakespeare"
-        android:layout_width="match_parent"
+        android:layout_width="250dip"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btndscr"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
+        android:gravity="left"
         android:text="@string/lder"
         android:textSize="18sp" />
 

@@ -33,63 +33,77 @@
             <Button
                 android:id="@+id/btndividendC"
                 style="@style/btnStyleShakespeare"
-                android:layout_width="fill_parent"
+                android:layout_width="250dip"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
+                android:layout_marginLeft="18dip"
+                android:gravity="left"
                 android:text="@string/dividendC"
                 android:textSize="20sp" />
 
             <Button
                 android:id="@+id/btndividendY"
                 style="@style/btnStyleShakespeare"
-                android:layout_width="match_parent"
+                android:layout_width="250dip"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:layout_marginLeft="18dip"
+                android:gravity="left"
                 android:text="@string/dividendY"
                 android:textSize="20sp" />
 
             <Button
                 android:id="@+id/btndividendS"
                 style="@style/btnStyleShakespeare"
-                android:layout_width="match_parent"
+                android:layout_width="250dip"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:layout_marginLeft="18dip"
+                android:gravity="left"
                 android:text="@string/dividendS"
                 android:textSize="20sp" />
 
             <Button
                 android:id="@+id/btneps"
                 style="@style/btnStyleShakespeare"
-                android:layout_width="match_parent"
+                android:layout_width="250dip"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:layout_marginLeft="18dip"
+                android:gravity="left"
                 android:text="@string/eps"
                 android:textSize="20sp" />
             
             <Button
                 android:id="@+id/btnpayoutratio"
                 style="@style/btnStyleShakespeare"
-                android:layout_width="fill_parent"
+                android:layout_width="250dip"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:layout_marginLeft="18dip"
+                android:gravity="left"
                 android:text="@string/payoutratio"
                 android:textSize="20sp" />
 
             <Button
                 android:id="@+id/btnpeg"
                 style="@style/btnStyleShakespeare"
-                android:layout_width="match_parent"
+                android:layout_width="250dip"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:layout_marginLeft="18dip"
+                android:gravity="left"
                 android:text="@string/peg"
                 android:textSize="20sp" />
 
             <Button
                 android:id="@+id/btnprice"
                 style="@style/btnStyleShakespeare"
-                android:layout_width="match_parent"
+                android:layout_width="250dip"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:layout_marginLeft="18dip"
+                android:gravity="left"
                 android:text="@string/price"
                 android:textSize="20sp" />
         </LinearLayout>

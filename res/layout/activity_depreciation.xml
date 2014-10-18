@@ -7,7 +7,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".Depreciation" >
-    
+
     <TextView
         android:id="@+id/txtbasic"
         android:layout_width="wrap_content"
@@ -23,44 +23,48 @@
     <Button
         android:id="@+id/btnbook"
         style="@style/btnStyleShakespeare"
-        android:layout_width="match_parent"
+        android:layout_width="250dip"
         android:layout_height="wrap_content"
         android:layout_below="@+id/txtbasic"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
+        android:gravity="left"
         android:text="@string/book"
         android:textSize="20sp" />
 
     <Button
         android:id="@+id/btndec"
         style="@style/btnStyleShakespeare"
-        android:layout_width="match_parent"
+        android:layout_width="250dip"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btnbook"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
+        android:gravity="left"
         android:text="@string/declining"
         android:textSize="20sp" />
 
     <Button
         android:id="@+id/btnstraight"
         style="@style/btnStyleShakespeare"
-        android:layout_width="match_parent"
+        android:layout_width="250dip"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btndec"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
+        android:gravity="left"
         android:text="@string/straight"
         android:textSize="18sp" />
 
     <Button
         android:id="@+id/btnpro"
         style="@style/btnStyleShakespeare"
-        android:layout_width="match_parent"
+        android:layout_width="250dip"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btnstraight"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
+        android:gravity="left"
         android:text="@string/pro"
         android:textSize="18sp" />
 
