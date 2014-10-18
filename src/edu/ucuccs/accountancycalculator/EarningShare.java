@@ -15,6 +15,8 @@ public class EarningShare extends Activity {
 	EditText editnumshare;
 	Button btncal;
 	TextView txtans;
+	TextView txtmain;
+	TextView txtdecs;
 	
 	double net, numshare, answer;
 
@@ -27,6 +29,18 @@ public class EarningShare extends Activity {
 		editnumshare = (EditText) findViewById(R.id.editnumshare);
 		btncal = (Button) findViewById(R.id.btncal);
 		txtans = (TextView) findViewById(R.id.txtans);
+		txtdecs = (TextView) findViewById(R.id.txtdecs);
+		txtmain = (TextView) findViewById(R.id.txtmain);
+		
+		txtmain.setOnClickListener(new OnClickListener(){
+
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				
+				txtdecs.setVisibility(View.VISIBLE);
+				
+			}});
 		
 		btncal.setOnClickListener(new OnClickListener(){
 

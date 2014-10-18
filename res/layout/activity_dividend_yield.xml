@@ -9,8 +9,8 @@
     tools:context=".DividendYield" >
 
     <TextView
-        android:id="@+id/txtasset"
-        android:layout_width="wrap_content"
+        android:id="@+id/txtmain"
+        android:layout_width="250dip"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
@@ -19,14 +19,16 @@
         android:text="@string/dividendY"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="@color/skyblue"
+        android:drawableRight="@drawable/information"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/txtdecs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/txtasset"
-        android:layout_below="@+id/txtasset"
+        android:layout_alignLeft="@+id/txtmain"
+        android:layout_below="@+id/txtmain"
+        android:visibility="gone"
         android:text="@string/divYdecs"
         android:textSize="14sp" />
 
@@ -34,8 +36,8 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView1"
-        android:layout_below="@+id/textView1"
+        android:layout_alignLeft="@+id/txtdecs"
+        android:layout_below="@+id/txtdecs"
         android:layout_marginTop="32dp"
         android:text="@string/annual"
         android:textAppearance="?android:attr/textAppearanceMedium" />
