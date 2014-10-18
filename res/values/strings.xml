@@ -116,7 +116,15 @@
     <string name="earning">Earnings:</string>
     <string name="pratio">Payout Ratio:</string>
     <string name="title_activity_pegratio">PEGRatio</string>
+    <string name="pegdecs">-Price of a stock compared to company growth. \nPEG Ratio = Price per Earnings / Annual EPS Growth</string>
+    <string name="pegr">PEG Ratio:</string>
+    <string name="ppe">Price per Earnings:</string>
+    <string name="aeg">Annual EPS Growth:</string>
     <string name="title_activity_price_sales">PriceSales</string>
+    <string name="psdecs">-Comparing a stock to past performace and market. \nPrice / Sales Ratio = Price per Share / Revenue per Share</string>
+    <string name="psr">Price / Sales Ratio:</string>
+    <string name="ps">Price per Share:</string>
+    <string name="rs">Revenue per Share:</string>
     <string name="title_activity_liquidity">Liquidity</string>
     <string name="acid">Acid Test Ratio</string>
     <string name="cash">Cash Ratio</string>

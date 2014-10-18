@@ -7,5 +7,107 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".PriceSales" >
+    
+    <TextView
+        android:id="@+id/txtmain"
+        android:layout_width="270dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/price"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/skyblue"
+        android:drawableRight="@drawable/information"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtdecs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtmain"
+        android:layout_below="@+id/txtmain"
+        android:visibility="gone"
+        android:text="@string/pegdecs"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtdecs"
+        android:layout_below="@+id/txtdecs"
+        android:layout_marginTop="32dp"
+        android:text="@string/ps"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editps"
+        android:layout_width="wrap_content"
+        android:layout_height="40dip"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/roundcorner"
+        android:ems="10"
+        android:inputType="number"
+        android:paddingLeft="10sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editrs"
+        android:layout_width="wrap_content"
+        android:layout_height="40dip"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/roundcorner"
+        android:ems="10"
+        android:inputType="number"
+        android:paddingLeft="10sp" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/editps"
+        android:layout_marginTop="10dp"
+        android:text="@string/rs"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/txtassets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/editrs"
+        android:layout_marginTop="10dp"
+        android:text="@string/psr"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/txtans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editrs"
+        android:layout_below="@+id/txtassets"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/btncal"
+        style="@style/btnStyleShakespeare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/cal"
+        android:textSize="20sp" />
 
 </RelativeLayout>
