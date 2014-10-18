@@ -15,6 +15,8 @@ public class DecliningBalance extends Activity {
 	EditText editbook;
 	Button btncal;
 	TextView txtans;
+	TextView txtmain;
+	TextView txtdecs;
 
 	double depre, book, answer;
 
@@ -26,6 +28,18 @@ public class DecliningBalance extends Activity {
 		editbook = (EditText) findViewById(R.id.editbook);
 		btncal = (Button) findViewById(R.id.btncal);
 		txtans = (TextView) findViewById(R.id.txtans);
+		txtdecs = (TextView) findViewById(R.id.txtdecs);
+		txtmain = (TextView) findViewById(R.id.txtmain);
+		
+		txtmain.setOnClickListener(new OnClickListener(){
+
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				
+				txtdecs.setVisibility(View.VISIBLE);
+				
+			}});
 		
 		btncal.setOnClickListener(new OnClickListener(){
 
