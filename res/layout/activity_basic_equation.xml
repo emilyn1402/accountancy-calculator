@@ -33,17 +33,23 @@
             <Button
                 android:id="@+id/btnasset"
                 style="@style/btnStyleShakespeare"
-                android:layout_width="match_parent"
+                android:layout_width="200dip"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
+                android:layout_marginLeft="45dip"
+                android:gravity="left"
+                android:paddingLeft="100dp"
                 android:text="@string/ass"
                 android:textSize="20sp" />
 
             <Button
                 android:id="@+id/btnebit"
                 style="@style/btnStyleShakespeare"
-                android:layout_width="match_parent"
+                android:layout_width="200dip"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="45dip"
+                android:gravity="left"
+                android:paddingLeft="100dp"
                 android:layout_marginTop="10dp"
                 android:text="@string/ebit"
                 android:textSize="18sp" />
@@ -51,54 +57,72 @@
             <Button
                 android:id="@+id/btneq"
                 style="@style/btnStyleShakespeare"
-                android:layout_width="match_parent"
+                android:layout_width="200dip"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:layout_marginLeft="45dip"
+                android:gravity="left"
+                android:paddingLeft="100dp"
                 android:text="@string/equ"
                 android:textSize="20sp" />
 
             <Button
                 android:id="@+id/btngp"
                 style="@style/btnStyleShakespeare"
-                android:layout_width="match_parent"
+                android:layout_width="200dip"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:layout_marginLeft="45dip"
+                android:gravity="left"
+                android:paddingLeft="100dp"
                 android:text="@string/gross"
                 android:textSize="20sp" />
 
             <Button
                 android:id="@+id/btnlia"
                 style="@style/btnStyleShakespeare"
-                android:layout_width="match_parent"
+                android:layout_width="200dip"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:layout_marginLeft="45dip"
+                android:gravity="left"
+                android:paddingLeft="100dp"
                 android:text="@string/lia"
                 android:textSize="20sp" />
 
             <Button
                 android:id="@+id/btnnet"
                 style="@style/btnStyleShakespeare"
-                android:layout_width="match_parent"
+                android:layout_width="200dip"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:layout_marginLeft="45dip"
+                android:gravity="left"
+                android:paddingLeft="100dp"
                 android:text="@string/net"
                 android:textSize="20sp" />
 
             <Button
                 android:id="@+id/btnop"
                 style="@style/btnStyleShakespeare"
-                android:layout_width="match_parent"
+                android:layout_width="200dip"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:layout_marginLeft="45dip"
+                android:gravity="left"
+                android:paddingLeft="100dp"
                 android:text="@string/op"
                 android:textSize="20sp" />
 
             <Button
                 android:id="@+id/btnsr"
                 style="@style/btnStyleShakespeare"
-                android:layout_width="match_parent"
+                android:layout_width="200dip"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:layout_marginLeft="45dip"
+                android:gravity="left"
+                android:paddingLeft="100dp"
                 android:text="@string/sr"
                 android:textSize="20sp" />
         </LinearLayout>
