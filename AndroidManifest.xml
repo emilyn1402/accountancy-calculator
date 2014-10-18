@@ -172,6 +172,14 @@
             android:label="@string/app_name"
             android:parentActivityName="edu.ucuccs.accountancycalculator.Depreciation" >
         </activity>
+        <activity
+            android:name="edu.ucuccs.accountancycalculator.StarightLineMethod"
+            android:label="@string/title_activity_staright_line_method" >
+        </activity>
+        <activity
+            android:name="edu.ucuccs.accountancycalculator.UnitProduction"
+            android:label="@string/title_activity_unit_production" >
+        </activity>
     </application>
 
 </manifest>

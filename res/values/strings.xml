@@ -162,7 +162,9 @@
     <string name="title_activity_declining_balance">DecliningBalance</string>
     <string name="decline">Declining Balance:</string>
     <string name="declinedecs">-Commonly used method of accelerated depreciation. \nDeclining Balance = Depreciation Rate x Book Value at Beginning of Year</string>
-	<string name="deprerate">Depreciation Rate:</string>
-	<string name="bookyear">Book Value at Beginning of Year:</string>
-    
+    <string name="deprerate">Depreciation Rate:</string>
+    <string name="bookyear">Book Value at Beginning of Year:</string>
+    <string name="title_activity_staright_line_method">StarightLineMethod</string>
+    <string name="title_activity_unit_production">UnitProduction</string>
+
 </resources>

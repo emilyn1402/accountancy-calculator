@@ -192,6 +192,8 @@ public final class R {
         public static final int activity_pegratio=0x7f03001d;
         public static final int activity_price_sales=0x7f03001e;
         public static final int activity_sales_revenue=0x7f03001f;
+        public static final int activity_staright_line_method=0x7f030020;
+        public static final int activity_unit_production=0x7f030021;
     }
     public static final class menu {
         public static final int acid_test_ratio=0x7f080000;
@@ -227,6 +229,8 @@ public final class R {
         public static final int pegratio=0x7f08001e;
         public static final int price_sales=0x7f08001f;
         public static final int sales_revenue=0x7f080020;
+        public static final int staright_line_method=0x7f080021;
+        public static final int unit_production=0x7f080022;
     }
     public static final class string {
         public static final int acid=0x7f050079;
@@ -385,6 +389,8 @@ public final class R {
         public static final int title_activity_pegratio=0x7f05006e;
         public static final int title_activity_price_sales=0x7f050073;
         public static final int title_activity_sales_revenue=0x7f05003d;
+        public static final int title_activity_staright_line_method=0x7f05009f;
+        public static final int title_activity_unit_production=0x7f0500a0;
         public static final int totalass=0x7f05004a;
         public static final int totallia=0x7f050045;
         public static final int work=0x7f05007b;
