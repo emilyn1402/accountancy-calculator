@@ -15,6 +15,8 @@ public class DebtRatios extends Activity {
 	EditText edittotalass;
 	Button btncal;
 	TextView txtans;
+	TextView txtmain;
+	TextView txtdecs;
 
 	double totallia, totalass, answer;
 
@@ -27,6 +29,18 @@ public class DebtRatios extends Activity {
 		edittotalass = (EditText) findViewById(R.id.edittotalass);
 		btncal = (Button) findViewById(R.id.btncal);
 		txtans = (TextView) findViewById(R.id.txtans);
+		txtdecs = (TextView) findViewById(R.id.txtdecs);
+		txtmain = (TextView) findViewById(R.id.txtmain);
+		
+		txtmain.setOnClickListener(new OnClickListener(){
+
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				
+				txtdecs.setVisibility(View.VISIBLE);
+				
+			}});
 		
 		btncal.setOnClickListener(new OnClickListener(){
 
