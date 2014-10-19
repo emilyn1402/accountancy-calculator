@@ -43,31 +43,31 @@
     <string name="title_activity_debt_ratio">DebtRatio</string>
     <string name="title_activity_market_ratio">MarketRatio</string>
     <string name="title_activity_assets">Assets</string>
-    <string name="assets">- Anything of value owned by a Company. \n Assets = Liabilities + Equity</string>
+    <string name="assets">- Anything of value owned by a Company.</string>
     <string name="title_activity_ebit">Ebit</string>
     <string name="rev">Revenue:</string>
     <string name="oe">Operating Expenses:</string>
-    <string name="ebitax">- Measures Profit. \nEBIT = Revenue - Operating Expenses</string>
+    <string name="ebitax">- Measures Profit.</string>
     <string name="eb">EBIT:</string>
     <string name="title_activity_equation">Equation</string>
     <string name="title_activity_equity">Equity</string>
-    <string name="equity">-Measures a company assets, after liablilities are paid. \nEquity = Assets - Liabilities</string>
+    <string name="equity">-Measures a company assets, after liablilities are paid.</string>
     <string name="title_activity_gross_profit">GrossProfit</string>
-    <string name="grossdecs">-Measures profit after cost of goods sold are paid. \nGross Profit = Revenue - Cost of Goods Sold</string>
+    <string name="grossdecs">-Measures profit after cost of goods sold are paid.</string>
     <string name="cogs">Cost of Goods Sold:</string>
     <string name="title_activity_liabilities">Liabilities</string>
     <string name="gp">Gross Profit:</string>
-    <string name="liadecs">-A financial obligation.\n-Money to paid.\nLiabilities = Assets - Equity</string>
+    <string name="liadecs">-A financial obligation.\n-Money to paid.</string>
     <string name="title_activity_net_income">NetIncome</string>
-    <string name="netdecs">-Measures of profit after all associated costs are paid.\nNet Income = Gross Profit - Operating Expenses - Taxes - Interest</string>
+    <string name="netdecs">-Measures of profit after all associated costs are paid.</string>
     <string name="tax">Taxes:</string>
     <string name="interest">Interest:</string>
     <string name="neti">Net Income:</string>
     <string name="title_activity_operating_profit">OperatingProfit</string>
-    <string name="opdecs">-Profit earned from a companys main activities.\nOperating Profit = Gross Profit - Operating Expenses</string>
+    <string name="opdecs">-Profit earned from a companys main activities.</string>
     <string name="oprofit">Operating Profit:</string>
     <string name="title_activity_sales_revenue">SalesRevenue</string>
-    <string name="srdecs">-Measures sales, before costs and taxes are accounted for.\nSales Revenue = Gross Sales - Sales of Returns and Allowances</string>
+    <string name="srdecs">-Measures sales, before costs and taxes are accounted for.</string>
     <string name="gs">Gross Sales:</string>
     <string name="sra">Sales of Return and Allowances:</string>
     <string name="srevenue">Sales Revenue:</string>
@@ -77,51 +77,51 @@
     <string name="totallia">Total Liabilities:</string>
     <string name="shareequity">Shareholders Equity:</string>
     <string name="dter">Debt To Equity Ratio:</string>
-    <string name="derdecs">-How much equity vs debt is being used to pay for assets. \nDebt to Equity Ratio = Total Liabilities / Shareholders Equity</string>
+    <string name="derdecs">-How much equity vs debt is being used to pay for assets.</string>
     <string name="title_activity_debt_ratios">DebtRatios</string>
     <string name="totalass">Total Asset:</string>
-    <string name="debtdecs">-Debt compared to assets. \nDebt Ratio = Total Liabilities / Total Assets</string>
+    <string name="debtdecs">-Debt compared to assets.</string>
     <string name="debtratio">Debt Ratio:</string>
     <string name="title_activity_debt_service_courage">DebtServiceCourage</string>
     <string name="netoincome">Net Operating Income:</string>
     <string name="debtservice">Total Debt Service:</string>
-    <string name="dscrdecs">-Cash available to pay off debt. \nDebt Service Courage Ratio = Net Operating Income / Total Debt Service</string>
+    <string name="dscrdecs">-Cash available to pay off debt.</string>
     <string name="dsc">Debt Service Courage Ratio:</string>
     <string name="title_activity_long_term_debt_equity">LongTermDebtEquity</string>
     <string name="ltlia">Long-Term Liabilities</string>
-    <string name="ltdebtdecs">-Equity vs long-term debt. \nLong-Term Debt to Equity Ratio = Long-Term Liabilities / Equity</string>
+    <string name="ltdebtdecs">-Equity vs long-term debt.</string>
     <string name="ltdebtequity">Long-Term Debt to Equity Ratio:</string>
     <string name="title_activity_dividend_cover">DividendCover</string>
-    <string name="divC">-Earnings compared to dividends. \nDividend Cover = Earnings per Share / Dividends per Share</string>
+    <string name="divC">-Earnings compared to dividends.</string>
     <string name="epershare">Earning per Share:</string>
     <string name="divshare">Dividend per Share:</string>
     <string name="diviC">Dividend Cover:</string>
     <string name="title_activity_dividend_yield">DividendYield</string>
-    <string name="divYdecs">-Dividends compared to market capitalization. \nDividend Yield = Annual Dividends per Share / Price per Share</string>
+    <string name="divYdecs">-Dividends compared to market capitalization.</string>
     <string name="annual">Annual Dividends per Share:</string>
     <string name="priceshare">Price per Share:</string>
     <string name="divY">Dividend Yield:</string>
     <string name="title_activity_dividend_share">DividendShare</string>
-    <string name="divSdecs">-Dividends compared to market capitalization. \nDividend per Share = Dividends Paid / Number of Shares</string>
+    <string name="divSdecs">-Dividends compared to market capitalization.</string>
     <string name="divpaid">Dividends Paid:</string>
     <string name="numshare">Number of Shares:</string>
     <string name="divS">Dividend per Share:</string>
     <string name="title_activity_earning_share">EarningShare</string>
-    <string name="epsdecs">-Amount of earnings for each share. \nEarning per Share = Net Earnings / Number of Shares</string>
+    <string name="epsdecs">-Amount of earnings for each share.</string>
     <string name="netearning">Net Earnings:</string>
     <string name="epshare">Earning per Share:</string>
     <string name="title_activity_payout_ratio">PayoutRatio</string>
-    <string name="pratiodesc">-Dividends per earnings. \nPayout Ratio = Dividends / Earnings</string>
+    <string name="pratiodesc">-Dividends per earnings.</string>
     <string name="div">Dividends:</string>
     <string name="earning">Earnings:</string>
     <string name="pratio">Payout Ratio:</string>
     <string name="title_activity_pegratio">PEGRatio</string>
-    <string name="pegdecs">-Price of a stock compared to company growth. \nPEG Ratio = Price per Earnings / Annual EPS Growth</string>
+    <string name="pegdecs">-Price of a stock compared to company growth.</string>
     <string name="pegr">PEG Ratio:</string>
     <string name="ppe">Price per Earnings:</string>
     <string name="aeg">Annual EPS Growth:</string>
     <string name="title_activity_price_sales">PriceSales</string>
-    <string name="psdecs">-Comparing a stock to past performace and market. \nPrice / Sales Ratio = Price per Share / Revenue per Share</string>
+    <string name="psdecs">-Comparing a stock to past performace and market.</string>
     <string name="psr">Price / Sales Ratio:</string>
     <string name="ps">Price per Share:</string>
     <string name="rs">Revenue per Share:</string>
@@ -131,21 +131,21 @@
     <string name="work">Working Capital Ratio</string>
     <string name="operation">Operation Cash Flow Ratio</string>
     <string name="title_activity_acid_test_ratio">AcidTestRatio</string>
-    <string name="acidecs">-A quick way to measure a company liquidity. \nAcid Test Ratio = (Current Assets - Inventories) / Current Liabilities</string>
+    <string name="acidecs">-A quick way to measure a company liquidity.</string>
     <string name="cass">Current Assets:</string>
     <string name="invent">Inventories:</string>
     <string name="clia">Current Liabilities:</string>
     <string name="acidtest">Acid Test Ratio:</string>
     <string name="title_activity_cash_ratio">CashRatio</string>
-    <string name="cashdecs">-Cash compared to liabilities. \nCash Ratio = (Cash + Marketable Securities) / Current Liabilities</string>
+    <string name="cashdecs">-Cash compared to liabilities.</string>
     <string name="ca">Cash:</string>
     <string name="marsec">Marketable Securities:</string>
     <string name="cashratio">Cash Ratio:</string>
     <string name="title_activity_current_ratio">CurrentRatio</string>
-    <string name="currentdecs">-Measures ability to pay short-term liabilities. \nWorking Capital Ratio = Current Assets / Current Liabilities</string>
+    <string name="currentdecs">-Measures ability to pay short-term liabilities.</string>
     <string name="current">Working Capital Ratio:</string>
     <string name="title_activity_operating_ratio">OperatingRatio</string>
-    <string name="opedecs">-Ability to pay liabilities with operating cash flow. \nOperation Cash Flow Ratio = Operating Cash Flow / Total Debts</string>
+    <string name="opedecs">-Ability to pay liabilities with operating cash flow.</string>
     <string name="oper">Operation Cash Flow Ratio:</string>
     <string name="opera">Operating Cash Flow:</string>
     <string name="tdebts">Total Debts:</string>
@@ -155,13 +155,13 @@
     <string name="declining">Declining Balance</string>
     <string name="straight">Straight-Line Method</string>
     <string name="pro">Units of Production</string>
-    <string name="decsbook">-The value of an asset on a companys balance sheet. \nBook Value = Acquisition Cost - Depreciation</string>
+    <string name="decsbook">-The value of an asset on a companys balance sheet.</string>
     <string name="acq">Acquisition Cost:</string>
     <string name="deprec">Depreciation:</string>
     <string name="bookv">Book Value:</string>
     <string name="title_activity_declining_balance">DecliningBalance</string>
     <string name="decline">Declining Balance:</string>
-    <string name="declinedecs">-Commonly used method of accelerated depreciation. \nDeclining Balance = Depreciation Rate x Book Value at Beginning of Year</string>
+    <string name="declinedecs">-Commonly used method of accelerated depreciation.</string>
     <string name="deprerate">Depreciation Rate:</string>
     <string name="bookyear">Book Value at Beginning of Year:</string>
     <string name="title_activity_staright_line_method">StarightLineMethod</string>

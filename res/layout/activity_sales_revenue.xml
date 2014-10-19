@@ -29,6 +29,7 @@
         android:layout_alignLeft="@+id/txtmain"
         android:layout_below="@+id/txtmain"
         android:text="@string/srdecs"
+        android:visibility="gone"
         android:textSize="14sp" />
 
     <TextView
@@ -38,7 +39,6 @@
         android:layout_alignLeft="@+id/txtdecs"
         android:layout_below="@+id/txtdecs"
         android:layout_marginTop="32dp"
-        android:visibility="gone"
         android:text="@string/gs"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 

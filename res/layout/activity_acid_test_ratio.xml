@@ -22,7 +22,7 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/txtmain"
+        android:id="@+id/txtdecs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10sp"

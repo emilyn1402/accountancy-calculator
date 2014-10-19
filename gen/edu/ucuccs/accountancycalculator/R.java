@@ -78,7 +78,7 @@ public final class R {
         public static final int btnasset=0x7f090010;
         public static final int btnbasic=0x7f09001d;
         public static final int btnbook=0x7f09002b;
-        public static final int btncal=0x7f09000a;
+        public static final int btncal=0x7f09000b;
         public static final int btncash=0x7f09003c;
         public static final int btncurrent=0x7f09003d;
         public static final int btndebt=0x7f09001e;
@@ -113,8 +113,8 @@ public final class R {
         public static final int editass=0x7f090039;
         public static final int editbook=0x7f09002a;
         public static final int editca=0x7f09001b;
-        public static final int editcass=0x7f090003;
-        public static final int editclia=0x7f090007;
+        public static final int editcass=0x7f090004;
+        public static final int editclia=0x7f090008;
         public static final int editcogs=0x7f09003a;
         public static final int editdebtservice=0x7f090029;
         public static final int editdepre=0x7f090019;
@@ -126,7 +126,7 @@ public final class R {
         public static final int editgross=0x7f090047;
         public static final int editgs=0x7f090052;
         public static final int editinterest=0x7f090049;
-        public static final int editinvent=0x7f090005;
+        public static final int editinvent=0x7f090006;
         public static final int editlia=0x7f09000c;
         public static final int editltlia=0x7f09003f;
         public static final int editmarsec=0x7f09001c;
@@ -147,16 +147,16 @@ public final class R {
         public static final int edittotalass=0x7f090027;
         public static final int edittotaldebt=0x7f09004c;
         public static final int edittotallia=0x7f090026;
-        public static final int scrollView1=0x7f090001;
-        public static final int textView2=0x7f090002;
+        public static final int scrollView1=0x7f090002;
+        public static final int textView2=0x7f090003;
         public static final int textView3=0x7f09000e;
-        public static final int textView4=0x7f090006;
-        public static final int textView5=0x7f090004;
+        public static final int textView4=0x7f090007;
+        public static final int textView5=0x7f090005;
         public static final int txdecs=0x7f09001a;
-        public static final int txtans=0x7f090009;
-        public static final int txtassets=0x7f090008;
+        public static final int txtans=0x7f09000a;
+        public static final int txtassets=0x7f090009;
         public static final int txtbasic=0x7f09000f;
-        public static final int txtdecs=0x7f09000b;
+        public static final int txtdecs=0x7f090001;
         public static final int txtmain=0x7f090000;
     }
     public static final class layout {
