@@ -73,7 +73,7 @@ public final class R {
         public static final int tab_unselected_pressed_myaction=0x7f02002d;
     }
     public static final class id {
-        public static final int action_settings=0x7f090054;
+        public static final int action_settings=0x7f090057;
         public static final int btnacid=0x7f09003b;
         public static final int btnasset=0x7f090010;
         public static final int btnbasic=0x7f09001d;
@@ -114,6 +114,7 @@ public final class R {
         public static final int editbook=0x7f09002a;
         public static final int editca=0x7f09001b;
         public static final int editcass=0x7f090004;
+        public static final int editcfa=0x7f090054;
         public static final int editclia=0x7f090008;
         public static final int editcogs=0x7f09003a;
         public static final int editdebtservice=0x7f090029;
@@ -141,12 +142,14 @@ public final class R {
         public static final int editps=0x7f090050;
         public static final int editrev=0x7f090037;
         public static final int editrs=0x7f090051;
+        public static final int editrv=0x7f090055;
         public static final int editshareequity=0x7f09002f;
         public static final int editsra=0x7f090053;
         public static final int edittax=0x7f090048;
         public static final int edittotalass=0x7f090027;
         public static final int edittotaldebt=0x7f09004c;
         public static final int edittotallia=0x7f090026;
+        public static final int editula=0x7f090056;
         public static final int scrollView1=0x7f090002;
         public static final int textView2=0x7f090003;
         public static final int textView3=0x7f09000e;
@@ -240,6 +243,7 @@ public final class R {
         public static final int action_settings=0x7f050001;
         public static final int aeg=0x7f050072;
         public static final int annual=0x7f05005d;
+        public static final int ap=0x7f0500a5;
         public static final int app_name=0x7f050000;
         public static final int ass=0x7f05000b;
         public static final int asset=0x7f050015;
@@ -257,6 +261,7 @@ public final class R {
         public static final int cass=0x7f05007f;
         public static final int cat=0x7f050004;
         public static final int cate=0x7f050006;
+        public static final int cfa=0x7f0500a2;
         public static final int clia=0x7f050081;
         public static final int cogs=0x7f050031;
         public static final int current=0x7f05008a;
@@ -301,6 +306,7 @@ public final class R {
         public static final int equ=0x7f05000d;
         public static final int equi=0x7f050014;
         public static final int equity=0x7f05002e;
+        public static final int etp=0x7f0500a4;
         public static final int ex=0x7f050005;
         public static final int gp=0x7f050033;
         public static final int gross=0x7f05000e;
@@ -349,11 +355,14 @@ public final class R {
         public static final int psr=0x7f050075;
         public static final int rev=0x7f050028;
         public static final int rs=0x7f050077;
+        public static final int rv=0x7f0500a3;
         public static final int shareequity=0x7f050046;
         public static final int sr=0x7f050012;
         public static final int sra=0x7f050040;
         public static final int srdecs=0x7f05003e;
         public static final int srevenue=0x7f050041;
+        public static final int stdecs=0x7f0500a0;
+        public static final int str=0x7f0500a1;
         public static final int straight=0x7f050094;
         public static final int tax=0x7f050037;
         public static final int tdebts=0x7f05008f;
@@ -390,9 +399,10 @@ public final class R {
         public static final int title_activity_price_sales=0x7f050073;
         public static final int title_activity_sales_revenue=0x7f05003d;
         public static final int title_activity_staright_line_method=0x7f05009f;
-        public static final int title_activity_unit_production=0x7f0500a0;
+        public static final int title_activity_unit_production=0x7f0500a7;
         public static final int totalass=0x7f05004a;
         public static final int totallia=0x7f050045;
+        public static final int ula=0x7f0500a6;
         public static final int work=0x7f05007b;
     }
     public static final class style {

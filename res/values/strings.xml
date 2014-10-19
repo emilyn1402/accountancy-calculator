@@ -165,6 +165,13 @@
     <string name="deprerate">Depreciation Rate:</string>
     <string name="bookyear">Book Value at Beginning of Year:</string>
     <string name="title_activity_staright_line_method">StarightLineMethod</string>
+    <string name="stdecs">-Easiest and most common method of depreciation.</string>
+    <string name="str">Straight-Line Method:</string>
+    <string name="cfa">Cost of Fixed Asset:</string>
+    <string name="rv">Residual Value:</string>
+    <string name="etp">Estimated Total Production:</string>
+    <string name="ap">Actual Production:</string>
+    <string name="ula">Useful Life of Asset (in years):</string>
     <string name="title_activity_unit_production">UnitProduction</string>
 
 </resources>
