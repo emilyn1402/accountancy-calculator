@@ -97,7 +97,7 @@ public class CashRatio extends Activity {
 					marsec = Double.parseDouble(editmarsec.getText().toString());
 					lia = Double.parseDouble(editclia.getText().toString());
 					
-					sub = cash - marsec;
+					sub = cash + marsec;
 					answer = sub / lia;
 					
 					txtans.setText(answer + "");

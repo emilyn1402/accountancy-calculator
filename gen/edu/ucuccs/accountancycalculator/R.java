@@ -73,7 +73,7 @@ public final class R {
         public static final int tab_unselected_pressed_myaction=0x7f02002d;
     }
     public static final class id {
-        public static final int action_settings=0x7f090057;
+        public static final int action_settings=0x7f09005a;
         public static final int btnacid=0x7f09003b;
         public static final int btnasset=0x7f090010;
         public static final int btnbasic=0x7f09001d;
@@ -110,6 +110,7 @@ public final class R {
         public static final int editacq=0x7f090018;
         public static final int editaeg=0x7f09004f;
         public static final int editannual=0x7f090034;
+        public static final int editap=0x7f090059;
         public static final int editass=0x7f090039;
         public static final int editbook=0x7f09002a;
         public static final int editca=0x7f09001b;
@@ -123,6 +124,7 @@ public final class R {
         public static final int editdividen=0x7f090031;
         public static final int editearning=0x7f090030;
         public static final int editequity=0x7f09000d;
+        public static final int editetp=0x7f090058;
         public static final int editgp=0x7f09004a;
         public static final int editgross=0x7f090047;
         public static final int editgs=0x7f090052;
@@ -143,6 +145,7 @@ public final class R {
         public static final int editrev=0x7f090037;
         public static final int editrs=0x7f090051;
         public static final int editrv=0x7f090055;
+        public static final int editrvalue=0x7f090057;
         public static final int editshareequity=0x7f09002f;
         public static final int editsra=0x7f090053;
         public static final int edittax=0x7f090048;
@@ -259,6 +262,7 @@ public final class R {
         public static final int cashdecs=0x7f050084;
         public static final int cashratio=0x7f050087;
         public static final int cass=0x7f05007f;
+        public static final int casset=0x7f0500a9;
         public static final int cat=0x7f050004;
         public static final int cate=0x7f050006;
         public static final int cfa=0x7f0500a2;
@@ -356,6 +360,7 @@ public final class R {
         public static final int rev=0x7f050028;
         public static final int rs=0x7f050077;
         public static final int rv=0x7f0500a3;
+        public static final int rvalue=0x7f0500aa;
         public static final int shareequity=0x7f050046;
         public static final int sr=0x7f050012;
         public static final int sra=0x7f050040;
@@ -403,6 +408,8 @@ public final class R {
         public static final int totalass=0x7f05004a;
         public static final int totallia=0x7f050045;
         public static final int ula=0x7f0500a6;
+        public static final int up=0x7f0500ab;
+        public static final int updecs=0x7f0500a8;
         public static final int work=0x7f05007b;
     }
     public static final class style {

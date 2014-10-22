@@ -173,5 +173,9 @@
     <string name="ap">Actual Production:</string>
     <string name="ula">Useful Life of Asset (in years):</string>
     <string name="title_activity_unit_production">UnitProduction</string>
+    <string name="updecs">-Depreciation measured by how many units are produced.</string>
+    <string name="casset">Cost of Asset :</string>
+    <string name="rvalue">Redidual Value:</string>
+    <string name="up">Units of Production:</string>
 
 </resources>

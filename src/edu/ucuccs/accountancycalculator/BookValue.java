@@ -24,8 +24,8 @@ public class BookValue extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_book_value);
-		editacq = (EditText) findViewById(R.id.editcass);
-		editdepre = (EditText) findViewById(R.id.editclia);
+		editacq = (EditText) findViewById(R.id.editacq);
+		editdepre = (EditText) findViewById(R.id.editdepre);
 		btncal = (Button) findViewById(R.id.btncal);
 		txtans = (TextView) findViewById(R.id.txtans);
 		txtdecs = (TextView) findViewById(R.id.txtdecs);
