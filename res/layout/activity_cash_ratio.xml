@@ -55,6 +55,7 @@
                 android:layout_height="40dip"
                 android:layout_marginLeft="38dp"
                 android:layout_marginTop="14dp"
+                android:maxLength="10"
                 android:background="@drawable/roundcorner"
                 android:ems="10"
                 android:inputType="number"
@@ -77,6 +78,7 @@
                 android:layout_height="40dip"
                 android:layout_marginLeft="38dp"
                 android:layout_marginTop="14dp"
+                android:maxLength="10"
                 android:background="@drawable/roundcorner"
                 android:ems="10"
                 android:inputType="number"
@@ -99,6 +101,7 @@
                 android:layout_marginTop="14dp"
                 android:background="@drawable/roundcorner"
                 android:ems="10"
+                android:maxLength="10"
                 android:inputType="number"
                 android:paddingLeft="10sp" >
             </EditText>

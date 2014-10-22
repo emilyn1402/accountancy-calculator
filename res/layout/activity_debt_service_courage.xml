@@ -7,7 +7,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".DebtServiceCourage" >
-    
+
     <TextView
         android:id="@+id/txtmain"
         android:layout_width="270dip"
@@ -16,11 +16,11 @@
         android:layout_alignParentTop="true"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="5dp"
-        android:textSize="21sp"
+        android:drawableRight="@drawable/information"
         android:text="@string/dscr"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="@color/skyblue"
-        android:drawableRight="@drawable/information"
+        android:textSize="21sp"
         android:textStyle="bold" />
 
     <TextView
@@ -29,9 +29,9 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/txtmain"
         android:layout_below="@+id/txtmain"
-        android:visibility="gone"
         android:text="@string/dscrdecs"
-        android:textSize="14sp" />
+        android:textSize="14sp"
+        android:visibility="gone" />
 
     <TextView
         android:id="@+id/textView2"
@@ -54,6 +54,7 @@
         android:background="@drawable/roundcorner"
         android:ems="10"
         android:inputType="number"
+        android:maxLength="10"
         android:paddingLeft="10sp" >
 
         <requestFocus />
@@ -70,6 +71,7 @@
         android:background="@drawable/roundcorner"
         android:ems="10"
         android:inputType="number"
+        android:maxLength="10"
         android:paddingLeft="10sp" >
     </EditText>
 
